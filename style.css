@@ -1,0 +1,121 @@
+body {
+
+	background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h1 {
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 36px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+form {
+	max-width: 300px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #a3ced3;
+	border: 10px solid #89b1c2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+label span {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+	width: 90%;
+	height: 30px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 10px solid #89b1c2;
+}
+
+input[type="submit"] {
+	width: 100%;
+	height: 30px;
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	border: 10px solid #93c2d3;
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #5395b8;
+}
+
+tr:nth-child(even) {
+	background-color: #87d0df;
+}
+
+tr:hover {
+	background-color: #5992b3;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background-color: #3e8e41;
+}
+
+.btn-danger {
+	background-color: #ff0000;
+	color: #fff;
+}
+
+.btn-danger:hover {
+	background-color: #cc0000;
+}
+
+input[type="search"]:focus {
+	font-size: medium;
+	border-color: #338ba6;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
